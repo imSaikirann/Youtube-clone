@@ -1,0 +1,48 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: #181818;
+    width: 72px;
+    z-index: 200 ;
+    padding-top: 6px;
+    
+}
+.sidebar-link,
+.sidebar-linkk{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.sidebar-link:hover{
+    background-color: #3d3d3d;
+}
+.sidebar-linkk:hover{
+    background-color: #3d3d3d;
+}
+
+.sidebar-link img{
+    height: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sidebar-linkk img{
+    
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.youtube{
+    height: 24px;
+}
+.sidebar-link,
+.sidebar-linkk div {
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}

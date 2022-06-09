@@ -1,0 +1,61 @@
+
+
+.thumbnail {
+    width: 100%;
+    
+}
+.video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.video-creator,
+.video-stats {
+    font-size: 12px;   
+}
+.video-creator {
+    margin-bottom: 4px;
+}
+.search{
+    display: inline-block;
+    
+}
+
+
+.video-infro-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
+    
+}
+
+.thumbnail-row {
+    margin-bottom: 14px;
+    position: relative;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 17px;
+    row-gap: 40px;
+}
+.video-time{
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    position:absolute;
+    right: 8px;
+    bottom: 10px;
+}
